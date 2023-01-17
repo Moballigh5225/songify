@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
 body {
   background-color: antiquewhite;
+  /* height: 100%; */
 }
 
 * {
@@ -54,7 +55,17 @@ nav ul li {
   cursor: pointer;
 }
 .container {
-  min-height: 75vh;
+  min-height: 57vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("bg.jpg");
+  background-size: 900px;
 }
 
 #myProgressBar {
